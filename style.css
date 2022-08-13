@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body, button, select, input, textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+:root {
+    --dark: #1d1d1d;
+    --light-gray: #bfbfc1;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    margin: 5px;
+    
+}
+
+h4 {
+    margin: 5px;
+    font-weight: 300;
+}
+
+.master {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+.master .iphone-container {
+    color: white;
+    width: 300px;
+    height: 600px;
+    background: var(--dark);
+    border: solid 15px;
+    box-shadow: 0 0 1em var(--dark);
+    border-color: black;
+    border-radius: 45px;
+    position: relative;
+    padding: 55px 10px 20px;
+}
+
+.master .iphone-container .notch {
+    width: 140px;
+    height: 25px;
+    background: black;
+    top: 0px;
+    left: calc(50% - 70px);
+    position: absolute;
+    border-radius: 0 0 20px 20px;
+}
+
+.master .iphone-container svg {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0 0 0;
+}
+
+.master .iphone-container .tela {
+    background: var(--light-gray);
+    width: 90px;
+    height: 3px;
+    border-radius: 8px;
+    bottom: 15px;
+    left: calc(50% - 45px);
+    position: absolute;
+}
+
+.master .iphone-container .previsao {
+    text-align: justify;
+    display: grid;
+    color: var(--light-gray);
+    grid-template-rows: (3, 1fr);
+    grid-template-columns: 3fr 1fr;
+    padding: 10px;
+    margin-top: 30px;
+    grid-gap: 5px;
+}
+
+
+.master .iphone-container2 {
+    color: black;
+    width: 300px;
+    height: 600px;
+    background: white;
+    border: solid 15px;
+    border-color: white;
+    box-shadow: 0 0 1em var(--light-gray);
+    border-radius: 45px;
+    position: relative;
+    padding: 55px 10px 20px;
+}
+
+.master .iphone-container2 .notch2 {
+    width: 140px;
+    height: 25px;
+    background: white;
+    top: 0px;
+    left: calc(50% - 70px);
+    position: absolute;
+    border-radius: 0 0 20px 20px;
+}
+
+.master .iphone-container2 svg {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0 0 0;
+}
+
+.master .iphone-container2 .tela2 {
+    background: var(--light-gray);
+    width: 90px;
+    height: 3px;
+    border-radius: 8px;
+    bottom: 15px;
+    left: calc(50% - 45px);
+    position: absolute;
+}
+
+.master .iphone-container2 .previsao2 {
+    text-align: justify;
+    display: grid;
+    color: var(--dark);
+    grid-template-rows: (3, 1fr);
+    grid-template-columns: 3fr 1fr;
+    padding: 10px;
+    margin-top: 30px;
+    grid-gap: 5px;
+}
